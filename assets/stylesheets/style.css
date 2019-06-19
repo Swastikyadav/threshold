@@ -9,12 +9,13 @@ html {
 body {
     line-height: 1.5;
     font-family: sans-serif;
+    background: #24252A;
 }
 h1 {
     font-size: 1.3rem;
 }
 h2 {
-    font-size: 1.7rem;
+    font-size: 3rem;
 }
 h3 {
     font-size: 1.5rem;
@@ -30,6 +31,27 @@ a {
 .flex {
     display: flex;
 }
+.grid {
+    display: grid;
+}
+.btn {
+    padding: 1rem;
+    color: #fff;
+    font-weight: bold;
+    background: rgba(213, 72, 86, 0.678);
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover {
+    background: rgba(213, 72, 86, 1);;
+}
+.icon {
+    padding-left: 0.5rem;
+    font-size: 0.8rem;
+}
+.active {
+    border-bottom: 3px solid rgb(213, 72, 86);
+}
 
 /* Header */
 
@@ -37,8 +59,54 @@ a {
     justify-content: space-between;
     align-items: center;
 }
+.logo {
+    color: #fff;
+    font-weight: bold;
+}
 .menu-links a {
-    padding: 0 1rem;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hero {
+    padding: 3rem 0 0 1rem;
+}
+.hero-frame {
+    background: url("../media/frame.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30rem;
+    height: 300px;
+    margin-left: 2rem;
+}
+.hero-img {
+    position: relative;
+    width: 100%;
+}
+.hero-img img {
+    position: absolute;
+    top: 1.5rem;
+    left: 4.5rem;
+}
+.hero-div {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 400px;
+}
+.hero h2 {
+    color: #fff;
+    font-weight: bold;
+}
+.hero p {
+    padding: 2rem 0;
+    color: #777777;
+}
+
+.genric-header {
+    background: #2E2E35;
+    position: fixed;
+    width: 100%;
 }
 
 /* Main */
