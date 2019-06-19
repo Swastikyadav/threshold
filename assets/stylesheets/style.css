@@ -42,6 +42,7 @@ a {
     background: rgba(213, 72, 86, 0.678);
     border: none;
     border-radius: 5px;
+    margin-top: 1rem;
 }
 .btn:hover {
     background: rgba(213, 72, 86, 1);;
@@ -151,6 +152,90 @@ a {
 }
 
 /* Main */
+/* Flex */
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Responsive Image */
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+/* Main */
+
+.padding{
+    padding: 5rem 0;
+}
+.article{
+    background: #24252A;
+}
+
+.article-container {
+    background: rgb(49, 49, 49);
+    margin-bottom: 3.3rem;
+}
+
+.article-img{
+    height: 100%;
+    width: 40%;
+}
+
+.article-description{
+    width: 60%;
+    padding: 0 3rem;
+}
+.article-heading {
+    font-size: 1.8rem;
+    color: rgb(236, 236, 236);
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+.article-text{
+    color: rgb(139, 139, 139);
+    font-weight: 400;
+}
+
+
+/* section grid */
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background: #24252A;
+    padding: 2rem 5rem;
+}
+
+.article-1{
+    padding: 4rem 2rem;
+    text-align: center;
+}
+.article-1 i{
+    font-size: 2rem;
+    color: rgb(255, 75, 75);
+    padding: 1rem;
+}
+.article-1 h2 {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 900;
+}
+.article-1 p {
+    font-size: 0.8rem;
+    font-weight: 200;
+    padding: 0 1rem;
+    margin-top: 1rem;
+    color: #aaa;
+}
+
 
 
 /* Footer */
