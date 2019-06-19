@@ -31,6 +31,7 @@ a {
 }
 .flex {
     display: flex;
+    flex-wrap: wrap;
 }
 .grid {
     display: grid;
@@ -89,19 +90,22 @@ a {
     width: 30rem;
     height: 300px;
     justify-self: end;
+    position: relative;
 }
 .hero-img {
-    position: relative;
-    width: 100%;
+    margin: 0 auto;     
 }
 .hero-img img {
     position: absolute;
-    top: 1.5rem;
-    left: 4.5rem;
+    top: 1rem;
+    left: 5rem;
 }
-.hero-div {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 400px;
+.hero-text,
+.hero-frame {
+    width: 50%; 
+}
+.hero-frame {
+
 }
 .hero h2 {
     color: #fff;
@@ -123,23 +127,19 @@ a {
     html {
         font-size: 16px;
     }
-    .hero {
-        padding: 0 0 1rem 0;
-    }
-    .hero-div {
-        grid-template-columns: 100%;
-    }
     .hero-img img {
-        top: 5rem;
-        left: 3.2rem;
+        top: 3.5rem;
+        left: 4rem;
+    }
+    .hero-text,
+    .hero-frame {
+        width: 100%;
     }
     .hero-frame {
-        width: 20rem;
-        grid-row: 1;
-        margin: 0 auto;
+        order: 1;
     }
     .hero-text {
-        margin-top: -6rem;
+        order: 2;
         text-align: center;
     }
     .menu-links {
