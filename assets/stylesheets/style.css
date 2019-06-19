@@ -146,8 +146,8 @@ a {
         width: 100%;
     }
     .hero-img {
-        margin-top: 4rem;
-        height: 140px;
+        margin-top: 3rem;
+        height: 60%;
     }
     .hero-text {
         grid-row: 2;
