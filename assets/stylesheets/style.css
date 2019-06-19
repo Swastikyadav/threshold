@@ -27,6 +27,7 @@ a {
     max-width: 1300px;
     width: 100%;
     padding: 2rem;
+    margin: 0 auto;
 }
 .flex {
     display: flex;
