@@ -148,7 +148,30 @@ a {
         display: block;
     }
 
+    /* Main */
+
 }
+
+
+@media all and (max-width: 768px){
+
+    .article-img,
+    .article-description {
+        width: 100%;
+        margin: 0 auto;
+        justihttps://github.com/Swastikyadav/threshold.gitfy-content: center;
+    }
+    .article-description {
+        padding: 3rem;
+    }
+
+    .img-responsive{
+        width: 100%;
+        margin-left: 10%;
+    }
+}
+
+
 
 /* Main */
 /* Flex */
