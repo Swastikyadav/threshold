@@ -1,0 +1,49 @@
+/* Universal Styles */
+
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 18px;
+}
+body {
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+h1 {
+    font-size: 1.3rem;
+}
+h2 {
+    font-size: 1.7rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+a {
+    text-decoration: none;
+}
+.wrapper {
+    max-width: 1300px;
+    width: 100%;
+    padding: 2rem;
+}
+.flex {
+    display: flex;
+}
+
+/* Header */
+
+.nav-bar {
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-links a {
+    padding: 0 1rem;
+}
+
+/* Main */
+
+
+/* Footer */
+
+
