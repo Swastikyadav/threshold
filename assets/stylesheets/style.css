@@ -125,13 +125,13 @@ a {
         grid-template-columns: 100%;
     }
     .hero-img img {
-        top: 3.8rem;
-        left: 3.8rem;
+        top: 5rem;
+        left: 3.2rem;
     }
     .hero-frame {
-        width: 25rem;
+        width: 20rem;
         grid-row: 1;
-        margin: 0 auto;
+        justify-self: center;
     }
     .hero-text {
         margin-top: -6rem;
