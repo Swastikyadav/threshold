@@ -46,3 +46,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* FORM CSS RESET */
+
+button,
+input,
+textarea {
+  box-shadow: none;
+  outline: 0;
+  border: 0;
+}
