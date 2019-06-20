@@ -209,14 +209,6 @@ a {
     border-top-right-radius: 10px;
     width: 100%;
   }
-  /* .box-img-con::after {
-    position: absolute;
-    content: "";
-    height: 100%;
-    width: 100%;
-    opacity: 0.6;
-    background: linear-gradient(45deg, #d54857, #2eaeff);
-  } */
   .padding {
     padding: 0 2rem;
   }
