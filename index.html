@@ -3,10 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Threshold</title>
         <link rel="stylesheet" href="./assets/stylesheets/reset.css">
         <link rel="stylesheet" href="./assets/stylesheets/style.css">
-        <script src="https://kit.fontawesome.com/3fe1f58858.js"></script>
+        <script src="https://kit.fontawesome.com/3fe1f58858.js"></script> 
     </head>
     <body>
         <!--Header-->
@@ -28,7 +29,7 @@
         </header>
 
         <section class="hero">
-            <div class="wrapper hero-div grid">
+            <div class="wrapper hero-div grid1">
                 <div class="hero-text">
                     <h2>Donec amet justo magna facilisis</h2>
                     <p>Cestibulum auctor dapibus neque euismod sed et
@@ -38,9 +39,7 @@
                     <button class="btn">Learn More<i class="fas fa-arrow-right icon"></i></button>
                 </div>
                 <div class="hero-frame">
-                    <div class="hero-img">
-                        <img src="./assets/media/hero.jpg" alt="" width="70%">
-                    </div>
+                    <div class="hero-img"></div>
                 </div>
             </div>
         </section>
@@ -48,8 +47,6 @@
         <!--Main-->
 
         <main>
-
-
             <section class="padding article">
                 <div class="wrapper">
                     <article class="flex article-container">
@@ -62,38 +59,38 @@
                                 Ut convallis, sem sit amet interdum consectetuer, odio augue aliquam leo, nec tortor nibh sed augue. 
                                 Integer eu magna sit amet metus ferment. Pellentesque a diam sit amet mi ullamcorper vehicula. Lorem ipsum dolor sit amet nullam.
                             </p>
-                            <button class="btn btn-secondary">Details</button>
+                            <button class="btn">Details<i class="fas fa-arrow-right icon"></i></button>
                         </div>
                     </article>
                     <article class="flex article-container">
+                        <div class="article-img">
+                            <img class="img-responsive" src="assets/media/main02.jpg" alt="css" />
+                        </div>
                         <div class="article-description">
                             <h4 class="article-heading">Metus interdum dolore</h4>
                             <p class="article-text">Ut convallis, sem sit amet interdum consectetuer, odio augue aliquam leo, nec tortor nibh sed augue.
                                  Integer eu magna sit amet metus ferment. 
                                 Pellentesque a diam sit amet mi ullamcorper vehicula. Lorem ipsum dolor sit amet nullam.</p>
-                            <button class="btn btn-secondary">Details</button>
-                        </div>
-                        <div class="article-img">
-                            <img class="img-responsive" src="assets/media/main02.jpg" alt="css" />
+                            <button class="btn">Details<i class="fas fa-arrow-right icon"></i></button>
                         </div>
                     </article>
                     <article class="flex article-container">
-                            <div class="article-img">
-                                <img class="img-responsive" src="assets/media/main03.jpg" alt="03">
-                            </div>
-                            <div class="article-description">
-                                <h4 class="article-heading">Augue diam vehicula</h4>
-                                <p class="article-text">
-                                    Ut convallis, sem sit amet interdum consectetuer, odio augue aliquam leo, nec tortor nibh sed augue. 
-                                    Integer eu magna sit amet metus ferment. Pellentesque a diam sit amet mi ullamcorper vehicula. Lorem ipsum dolor sit amet nullam.
-                                </p>
-                                <button class="btn btn-secondary">Details</button>
-                            </div>
-                        </article>
+                        <div class="article-img">
+                            <img class="img-responsive" src="assets/media/main03.jpg" alt="03">
+                        </div>
+                        <div class="article-description">
+                            <h4 class="article-heading">Augue diam vehicula</h4>
+                            <p class="article-text">
+                                Ut convallis, sem sit amet interdum consectetuer, odio augue aliquam leo, nec tortor nibh sed augue. 
+                                Integer eu magna sit amet metus ferment. Pellentesque a diam sit amet mi ullamcorper vehicula. Lorem ipsum dolor sit amet nullam.
+                            </p>
+                            <button class="btn">Details<i class="fas fa-arrow-right icon"></i></button>
+                        </div>
+                    </article>
                 </div>
             </section>
 
-            <section class="grid">
+            <section class="grid wrapper">
                 <article class="article-1">
                     <i class="fas fa-cube"></i>
                     <h2>Etiam consequat</h2>
@@ -125,8 +122,6 @@
                     <p>Ut convallis, sem sit amet interdum consectetuer, odio augue aliquam leo, nec dapibus tortor nibh sed augue. Integer eu magna sit amet.</p>
                 </article>
             </section>
-
-
         </main>
 
 
@@ -173,41 +168,43 @@
 
         <!-- CONTACT GRID -->
 
-            <div class="grid-footer">
-                <div>
-                    
-                    <p><i class="fas fa-home"></i> 1234 Fictional Rd #789
-                    Nashville, TN 00000</p>
+            <div class="grid-footer-wrapper">
+                <div class="grid-footer">
+                    <div>
+                        
+                        <p><i class="fas fa-home"></i> 1234 Fictional Rd #789
+                        Nashville, TN 00000</p>
+                    </div>
+
+                    <div>
+                        
+                        <p><i class="fas fa-home"></i> +91-9999998877</p>
+                    </div>
+
+                    <div>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:information@untitled.ext">information@untitled.ext</a>
+
+                    </div>
+
+                    <div>
+                        <i class="fab fa-twitter"></i>
+                        <a href="https://www.Twitter.com/AltCampus" target="_blank">Twitter/AltCampus</a>
+                    </div>
+
+                    <div>
+                        <i class="fab fa-facebook-f"></i>
+                        <a href="https://www.facebook.com/AltCampus" target="_blank">Facebook/AltCampus</a>
+                    </div>
+
+                    <div>
+                        <i class="fab fa-linkedin-in"></i>
+                        <a href="https://www.Linkedin.com/AltCampus" target="_blank">Linkedin/AltCampus</a>
+
+                        
+                    </div>
+           
                 </div>
-
-                <div>
-                    
-                    <p><i class="fas fa-home"></i> +91-9999998877</p>
-                </div>
-
-                <div>
-                    <i class="fas fa-envelope"></i>
-                    <a href="mailto:information@untitled.ext">information@untitled.ext</a>
-
-                </div>
-
-                <div>
-                    <i class="fab fa-twitter"></i>
-                    <a href="https://www.Twitter.com/AltCampus" target="_blank">Twitter/AltCampus</a>
-                </div>
-
-                <div>
-                    <i class="fab fa-facebook-f"></i>
-                    <a href="https://www.facebook.com/AltCampus" target="_blank">Facebook/AltCampus</a>
-                </div>
-
-                <div>
-                    <i class="fab fa-linkedin-in"></i>
-                    <a href="https://www.Linkedin.com/AltCampus" target="_blank">Linkedin/AltCampus</a>
-
-                    
-                </div>
-       
             </div>
             
             <!-- Footer Signature -->
