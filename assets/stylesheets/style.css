@@ -40,7 +40,7 @@ a {
     background: rgba(213, 72, 86, 0.678);
     border: none;
     border-radius: 5px;
-    margin-top: 1rem;
+    margin: 1rem 0;
 }
 .btn:hover {
     background: rgba(213, 72, 86, 1);;
