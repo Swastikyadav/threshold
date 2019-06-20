@@ -339,6 +339,8 @@ textarea {
     font-size: 1.2rem;
     color: rgb(255, 75, 75);
     padding: 2rem;
+    /* transform: rotate(30deg); */
+
 }
 
 
