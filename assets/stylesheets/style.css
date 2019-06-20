@@ -56,13 +56,16 @@ a {
     font-size: 1.5rem;
     color: #fff;
 }
+.center {
+    
+}
 
 /* Header */
 
 .nav-bar {
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 .logo {
     color: #fff;
@@ -78,7 +81,7 @@ a {
 }
 
 .hero {
-    padding: 3rem 0 0 1rem;
+    padding: 7rem 0 0 1rem;
 }
 .hero-div {
     grid-template-columns: repeat(2, 1fr);
@@ -337,7 +340,11 @@ textarea {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    justify-content: center;
+    justify-content: end;
+}
+.grid-footer div {
+    width: 26rem;
+    padding-left: 5.5rem; 
 }
 
 .grid-footer i{
@@ -378,7 +385,7 @@ textarea {
     html{
         font-size: 12px;
     }
-   /* .article-container{
+    .article-container{
         width: 100%;
         margin: 0 auto;
         text-align: center;
@@ -390,7 +397,7 @@ textarea {
         padding: 0;
         width: 80%;
         margin: 0;
-    }*/
+    }
     .img-responsive{
         width: 80%;
         height: auto;
