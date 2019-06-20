@@ -99,7 +99,7 @@ a {
     margin: 2rem auto;
     width: 70%;
     height: 200px;
-    background: url("../media/hero.jpg");
+    background: linear-gradient(rgba(222, 102, 233, 0.425), rgba(91, 91, 230, 0.425)), url("../media/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
