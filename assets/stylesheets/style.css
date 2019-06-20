@@ -248,7 +248,7 @@ a {
 
 .page-name {
     text-align: center;
-    padding: 10rem;
+    padding: 6rem;
     color: grey;
     font-size: 0.8rem;
     width: 80%;
@@ -261,9 +261,10 @@ a {
 }
 
 .genericimage {
-    width: 80%;
-    padding: 5rem;
+    width: 100%;
+    padding: 0rem 0 5rem 0;
     height: 50rem;
+    margin: 0 auto;
 }
 
 .generic-text {
@@ -326,13 +327,17 @@ textarea {
     background: transparent;
 }
 
+.btn-form {
+    text-align: center;
+    margin: 0 auto;
+}
 /* CONTACT GRID */
 
 .grid-footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    justify-content: : space-between;
+    justify-content: center;
 }
 
 .grid-footer i{
@@ -349,12 +354,12 @@ textarea {
     color: #777;
 }
 
-.grid-footer-wrapper {
+/*.grid-footer-wrapper {
     max-width: 1300px;
     width: 100%;
     padding: 0 2rem;
     margin: 0 auto;
-}
+}*/
 
 .footersign {
   background: #24252A;
@@ -373,7 +378,7 @@ textarea {
     html{
         font-size: 12px;
     }
-    .article-container{
+   /* .article-container{
         width: 100%;
         margin: 0 auto;
         text-align: center;
@@ -385,14 +390,27 @@ textarea {
         padding: 0;
         width: 80%;
         margin: 0;
-    }
+    }*/
     .img-responsive{
         width: 80%;
+        height: auto;
     }
     .grid{
         grid-template-columns: 1fr;
         justify-content: center;
         width: 80%;
         padding: 0;
+    }
+
+    .g-image-res {
+        width: 100%;
+        margin: 0 2rem 0rem 2.5rem;
+    }
+
+    .grid-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 1rem;
     }
 }
