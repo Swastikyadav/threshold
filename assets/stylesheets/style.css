@@ -1,4 +1,3 @@
-/* Universal Styles */
 img {
     font-size: 0;
     vertical-align: top;
@@ -185,35 +184,70 @@ a {
 }
 
 /* Main */
-.article{
-    background: #24252A;
-    margin: 2rem 0;
-}
 
-.article-container {
-    background: rgb(49, 49, 49);
-    margin-bottom: 3.3rem;
-}
-
-.article-img{
-    width: 40%;
-}
-
-.article-description{
-    width: 60%;
-    padding: 0 3rem;
-}
-.article-heading {
-    font-size: 1.8rem;
-    color: rgb(236, 236, 236);
+.box p {
+    margin: 1.5rem 0;
+    font-size: 0.95rem;
+    color: #929295;
+    line-height: 2;
+  }
+  /* cards */
+  .main-article {
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .box {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #2e2e35;
+    border-radius: 5px;
+    margin-bottom: 2.5rem;
+  }
+  .box-img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+  }
+  .padding {
+    padding: 0 2rem;
+  }
+  .box-h2 {
+    margin: 1.5rem 0;
+    color: white;
     font-weight: 900;
+    font-size: 1.5rem;
+  }
+  .box button {
     margin-bottom: 2rem;
-}
-.article-text{
-    color: rgb(139, 139, 139);
-    font-weight: 400;
-}
+  }
+  
+/* Responsive */
 
+@media all and (min-width:768px) {
+.parent-article{
+    margin: 0 auto 3.2rem auto;
+}
+.box {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+.box-2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+.box-2 img {
+    order: 1;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
+  }
+  .box p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
 
 /* section grid */
 
@@ -384,23 +418,6 @@ textarea {
 @media all and (max-width: 768px){
     html{
         font-size: 12px;
-    }
-    .article-container{
-        width: 100%;
-        margin: 0 auto;
-        text-align: center;
-        justify-content: center;
-        margin-bottom: 2rem;
-    }
-    .article-description, .article-img {
-        margin: 0 auto;
-        padding: 0;
-        width: 80%;
-        margin: 0;
-    }
-    .img-responsive{
-        width: 80%;
-        height: auto;
     }
     .grid{
         grid-template-columns: 1fr;
